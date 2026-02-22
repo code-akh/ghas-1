@@ -83,7 +83,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.32</version> <!-- ✅ Explicit version -->
+			<version>1.18.42</version> <!-- ✅ Explicit version -->
 			<optional>true</optional>
 		</dependency>
 		<dependency>
@@ -136,7 +136,7 @@
 						<path>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
-							<version>1.18.32</version> <!-- ✅ Must not be blank -->
+							<version>1.18.42</version> <!-- ✅ Must not be blank -->
 						</path>
 					</annotationProcessorPaths>
 				</configuration>
