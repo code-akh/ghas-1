@@ -5,7 +5,15 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "maven"   # Use Maven for Spring Boot projects
+    directory: "/"               # Root directory where pom.xml is located
     schedule:
-      interval: "weekly"
+      interval: "weekly"         # Check for updates once a week
+      day: "monday"              # Run on Mondays
+      time: "09:00"              # At 9 AM
+      timezone: "Asia/Kolkata"   # Adjust to your local timezone
+    open-pull-requests-limit: 10 # Max number of PRs Dependabot will open
+    reviewers:
+      - "your-github-username"   # Optional: assign PRs to a reviewer
+    labels:
+      - "dependencies
