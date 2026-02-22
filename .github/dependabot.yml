@@ -14,6 +14,6 @@ updates:
       timezone: "Asia/Kolkata"   # Adjust to your local timezone
     open-pull-requests-limit: 10 # Max number of PRs Dependabot will open
     reviewers:
-      - "your-github-username"   # Optional: assign PRs to a reviewer
+      - "code-akh"   # Optional: assign PRs to a reviewer
     labels:
-      - "dependencies
+      - "dependencies"           # Optional: add labels to PRs
